@@ -1,0 +1,35 @@
+{%extends 'base.html'%} 
+
+{%block pgtitle%} Home {%endblock%} 
+
+{%block title%} Home {%endblock%} 
+
+{%block linkone%}<a href="/" class="nav-link active">Home</a>{%endblock%}
+{%block linktwo%}<a href="protein" class="nav-link ">Protein</a>{%endblock%}
+{%block linkthree%}<a href="creatine" class="nav-link">Creatine</a>{%endblock%}
+
+{%block content%}
+    
+    <div class="d-flex justify-content-around">
+        <div class="d-flex flex-column text-wrap "style="width: 15%;">
+            <div class="pb-5" ><h2 class="justify-content-">Our mission</h2></div>
+            <div class="fs-5 pb-5" style="word-wrap: break-word;">In a world where Companies make their pricing unclear you need a way to see if you are actually getting a deal or if they are trying to confuse you. </div>
+            <div class="fs-5 pb-5" style="word-wrap: break-word;">Use our tool to track the price of supliments historically and see if you are actually getting a deal.</div>
+            <div class="fs-5 pb-5" style="word-wrap: break-word;">Check price histotry to see if there may be an upcoming deal before you buy.</div>
+        </div>
+
+
+
+        <div class="d-flex flex-column gap-5 mt-5 "  >
+            <div class="card text-center fs-4 fw-bold position-relative   "  style="width: 12rem; height: 12rem;"    onmouseover="this.classList.add('shadow-lg')" onmouseout="this.classList.remove('shadow-lg')" > 
+                <p>Compare Protein Now</p>
+                <a class="stretched-link link-opacity-50-hover"  href="/protein"></a> 
+            </div>
+
+            <div class="card text-center fs-4 fw-bold position-relative  hover-shadow" style="width: 12rem; height: 12rem;" onmouseover="this.classList.add('shadow-lg')" onmouseout="this.classList.remove('shadow-lg')">
+                <p class="card-text">Compare Creatine Now</p>
+                <a class="stretched-link "  href="/creatine"></a> 
+            </div>
+        </div>
+    </div>
+{%endblock%}

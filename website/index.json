@@ -1,0 +1,43 @@
+{
+    "date": [
+        "2024-11-25",
+        "2024-11-25",
+        "2024-11-25"
+    ],
+    "protein": {
+        "price": {
+            "mp": [
+                110.99,
+                110.99,
+                110.99
+            ],
+            "pworks": [
+                99.99,
+                99.99,
+                99.99
+            ]
+        },
+        "description": {
+            "mp": "Ingredients: Whey Protein Concentrate (Milk) (100%) (contains Emulsifiers (Soya Lecithin, Sunflower Lecithin)).",
+            "pworks": "Ingredients: Whey Protein Concentrate (Milk) (Emulsifier: Sunflower Lecithin), Fat-Reduced Cocoa Powder, Thickener (Xanthan Gum), Flavouring, Sweetener (Sucralose)."
+        }
+    },
+    "creatine": {
+        "price": {
+            "mp": [
+                44.99,
+                44.99,
+                44.99
+            ],
+            "pworks": [
+                33.49,
+                33.49,
+                33.49
+            ]
+        },
+        "description": {
+            "mp": "Ingredients: Creatine Monohydrate.",
+            "pworks": "Ingredients: Creatine Monohydrate."
+        }
+    }
+}
