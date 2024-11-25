@@ -10,7 +10,8 @@ def home_site():
     return render_template('home.html')
 @views.route('/protein')
 def protein_site():
-    with open(base_path+"/index.json", "r") as f:
+    file_path = os.path.join(base_path,"index.json")
+    with open(file_path, "r") as f:
         index = json.load(f)
     dates =  index["date"]
     mp = index["protein"]["price"]["mp"]
@@ -20,7 +21,8 @@ def protein_site():
     return render_template('protein.html',dates=dates,mp=mp,mpdes=mpdes,pworks=pworks,pworksdes=pworksdes)
 @views.route('/creatine')
 def creatine_site():
-    with open(base_path+"/index.json", "r") as f:
+    file_path = os.path.join(base_path,"index.json")
+    with open(file_path, "r") as f:
         index = json.load(f)
     dates =  index["date"]
     mp = index["creatine"]["price"]["mp"]
