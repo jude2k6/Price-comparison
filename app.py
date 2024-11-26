@@ -12,7 +12,7 @@ def run_update_script():
     subprocess.run(["python", script_path], check=True)
 
 
-scheduler.add_job(func=run_update_script, trigger="cron", hour=23, minute = 5, id ="update", max_instances=1)
+scheduler.add_job(func=run_update_script, trigger="cron", hour=23, minute = 10, id ="update", max_instances=1)
 
 
 if __name__ == '__main__':
