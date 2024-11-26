@@ -9,10 +9,10 @@ script_path = os.path.join(base_path, "website", "updatejson.py")
 
 def run_update_script():
     print("job run")
-    subprocess.run(["python", script_path], check=True)
+    print("graeeeeeeeeeeeeeeeee")
 
 
-scheduler.add_job(func=run_update_script, trigger="interval", minutes=5, id ="update", max_instances=1)
+scheduler.add_job(func=run_update_script, trigger="interval", seconds = 30, id ="update", max_instances=1)
 
 
 if __name__ == '__main__':
