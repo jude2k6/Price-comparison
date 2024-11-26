@@ -1,17 +1,14 @@
 {
     "date": [
         "2024-11-25"
-        
     ],
     "protein": {
         "price": {
             "mp": [
                 110.99
-               
             ],
             "pworks": [
                 99.99
-                
             ]
         },
         "description": {
@@ -23,11 +20,9 @@
         "price": {
             "mp": [
                 44.99
-                
             ],
             "pworks": [
                 33.49
-                
             ]
         },
         "description": {
