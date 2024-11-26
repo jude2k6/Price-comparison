@@ -18,4 +18,5 @@ scheduler.add_job(func=run_update_script, trigger="interval", minutes=5, id ="up
 if __name__ == '__main__':
     scheduler.start()
     print("Scheduled jobs:", scheduler.get_jobs())
+    print("run")
     app.run(port=81, debug=False, threaded=True)
