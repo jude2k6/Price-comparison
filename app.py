@@ -19,5 +19,5 @@ if __name__ == '__main__':
     scheduler.start()
     print("Scheduled jobs:", scheduler.get_jobs())
     print("run")
-    #app.run(port=81, debug=True, threaded=True)
+    app.run(host="0.0.0.0", debug=True, threaded=True)
  
