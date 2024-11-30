@@ -20,7 +20,7 @@ def scrape_mp():
             options.add_argument('--no-sandbox')  # Required for some environments like Docker
             options.add_argument('--disable-dev-shm-usage')  # Avoids shared memory issues
             #initalises chrome driver
-            service = Service(executable_path=base_path+"/chromedriver.exe")
+            service = Service(executable_path=base_path+"/chromedriver")
             driver = webdriver.Chrome(service=service, options=options)
             #go to protein
             driver.get("https://www.myprotein.ie/p/sports-nutrition/impact-whey-protein/10530943/?variation=10530960")
